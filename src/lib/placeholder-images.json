@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A vibrant, neon-lit arcade at night.",
+      "imageUrl": "https://images.unsplash.com/photo-1700085663941-d51629898775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcmNhZGUlMjBuaWdodHxlbnwwfHx8fDE3NjM1NjIxODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arcade night"
+    },
+    {
+      "id": "reward-1",
+      "description": "A sleek, modern gaming headset.",
+      "imageUrl": "https://images.unsplash.com/photo-1600186279172-fdbaefd74383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnYW1pbmclMjBoZWFkc2V0fGVufDB8fHx8MTc2MzU0NDk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming headset"
+    },
+    {
+      "id": "reward-2",
+      "description": "A stack of gift cards.",
+      "imageUrl": "https://images.unsplash.com/photo-1494537449588-7f07cede2556?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnaWZ0JTIwY2FyZHN8ZW58MHx8fHwxNzYzNTYyMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gift cards"
+    },
+    {
+      "id": "reward-3",
+      "description": "An exclusive in-game character skin.",
+      "imageUrl": "https://images.unsplash.com/photo-1759663176507-66ef6ed6d5ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnYW1lJTIwY2hhcmFjdGVyfGVufDB8fHx8MTc2MzU2MjE4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "game character"
+    },
+    {
+      "id": "user-avatar",
+      "description": "A user's profile avatar.",
+      "imageUrl": "https://images.unsplash.com/photo-1702478629992-bd590033779d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmlsZSUyMGF2YXRhcnxlbnwwfHx8fDE3NjM1NDMyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile avatar"
+    }
+  ]
 }
