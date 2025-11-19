@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-invert max-w-none text-muted-foreground prose-headings:text-foreground prose-headings:font-headline prose-a:text-primary hover:prose-a:text-primary/80">
             <p>Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
             <p>
-              This Privacy Policy explains how [Your Company Name/Your Name] ("we," "us," or "our") collects, uses, and discloses information about you when you use the Try Achiever mobile application (the "Service").
+              This Privacy Policy explains how Grock Technologies ("we," "us," or "our") collects, uses, and discloses information about you when you use the Try Achiever mobile application (the "Service").
             </p>
             
             <h2>1. Information We Collect</h2>
@@ -79,9 +79,8 @@ export default function PrivacyPolicyPage() {
             <h2>9. Contact Us</h2>
             <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
             <p>
-              [Your Company Name/Your Name]<br />
-              [Your Support Email Address]<br />
-              [Optional: Your Website or Mailing Address]
+              Grock Technologies<br />
+              helpdesk.grock@outlook.com<br />
             </p>
             <p>Remember to replace all bracketed placeholders with your actual information and seek legal counsel.</p>
           </div>
