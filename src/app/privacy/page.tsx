@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
             <p>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
             <p>
-              Welcome to Try Achiever HQ. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.
+              Welcome to Try Achiever. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.
             </p>
 
             <h2>1. Information We Collect</h2>
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
 
             <h2>5. Contact Us</h2>
             <p>
-              If you have questions or comments about this Privacy Policy, please contact us at: privacy@tryachieverhq.example.com
+              If you have questions or comments about this Privacy Policy, please contact us at: privacy@tryachiever.example.com
             </p>
           </div>
         </div>

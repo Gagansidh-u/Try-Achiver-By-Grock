@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Try Achiever HQ',
+  title: 'Try Achiever',
   description: 'Track your achievements, earn rewards!',
 };
 

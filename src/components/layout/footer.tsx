@@ -11,7 +11,7 @@ export default function Footer() {
             <Logo />
           </div>
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Try Achiever HQ. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Try Achiever. All rights reserved.</p>
           </div>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
