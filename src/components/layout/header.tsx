@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Gamepad2, Menu, X, Trophy, Gift, User } from 'lucide-react';
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import Logo from '../icons/logo';
@@ -58,18 +58,18 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background">
-              <div className="p-4">
-                <div className="flex justify-between items-center mb-8">
-                  <Link href="/" className="flex items-center gap-2">
-                    <Logo />
-                  </Link>
-                  <SheetClose asChild>
-                    <Button variant="ghost" size="icon">
-                      <X />
-                    </Button>
-                  </SheetClose>
-                </div>
-
+              <SheetHeader className="p-4 flex-row justify-between items-center mb-4">
+                <Link href="/">
+                  <Logo />
+                </Link>
+                <SheetTitle className="sr-only">Menu</SheetTitle>
+                <SheetClose asChild>
+                  <Button variant="ghost" size="icon">
+                    <X />
+                  </Button>
+                </SheetClose>
+              </SheetHeader>
+              <div className="p-4 pt-0">
                 <div className="flex flex-col gap-4">
                   {navLinks.map((link) => (
                     <SheetClose asChild key={link.href}>
