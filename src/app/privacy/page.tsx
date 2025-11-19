@@ -8,47 +8,82 @@ export default function PrivacyPolicyPage() {
       <main className="flex-grow container mx-auto px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-8">
-            Privacy Policy
+            🛡️ Privacy Policy for Try Achiever
           </h1>
           <div className="prose prose-invert max-w-none text-muted-foreground prose-headings:text-foreground prose-headings:font-headline prose-a:text-primary hover:prose-a:text-primary/80">
-            <p>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
-
+            <p>Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
             <p>
-              Welcome to Try Achiever. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.
+              This Privacy Policy explains how [Your Company Name/Your Name] ("we," "us," or "our") collects, uses, and discloses information about you when you use the Try Achiever mobile application (the "Service").
             </p>
-
+            
             <h2>1. Information We Collect</h2>
             <p>
-              We may collect information about you in a variety of ways. The information we may collect via the Application includes:
+              Because Try Achiever integrates with Google Play Games to function, we primarily collect information provided by or linked to your Google Account through official APIs.
+            </p>
+
+            <h3>A. Information Provided by Google Play Games (Linked Data)</h3>
+            <p>
+              When you choose to link your Google Account to our Service, we access the following data strictly to provide the core functionality of the achievement tracker:
             </p>
             <ul>
-              <li><strong>Personal Data:</strong> We do not collect personally identifiable information, such as your name, shipping address, email address, etc.</li>
-              <li><strong>Usage Data:</strong> We may collect information about your device and how you use the app to help us improve our service. This data is anonymized.</li>
+              <li><strong>Google Play Games Profile Data:</strong> Your Player ID, public nickname, avatar, and friends list (if applicable).</li>
+              <li><strong>Achievement Data:</strong> Your current Google Play Games Experience Points (XP), achievement history (unlocked achievements), and progress towards unlocking new achievements.</li>
+              <li><strong>Game Activity:</strong> General information about the games you have played that are associated with your Google Play Games profile.</li>
             </ul>
+            <p>We DO NOT collect or store your Google Account password, email address, or any sensitive financial information.</p>
 
-            <h2>2. Use of Your Information</h2>
-            <p>
-              Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Application to:
-            </p>
+            <h3>B. Information You Provide Directly</h3>
             <ul>
-              <li>Monitor and analyze usage and trends to improve your experience with the Application.</li>
-              <li>Perform other business activities as needed.</li>
+              <li><strong>Optional Feedback Data:</strong> If you contact us for support or send us feedback, we may collect the content of your message and your contact information (such as your support ticket ID).</li>
             </ul>
 
-            <h2>3. Disclosure of Your Information</h2>
-            <p>
-              We do not share your information with any third parties.
-            </p>
+            <h3>C. Automatically Collected Information</h3>
+            <ul>
+              <li><strong>Usage Data:</strong> Information about how you access and use the Service, such as the features you use, the time and duration of your activity, and system crash reports.</li>
+              <li><strong>Device Information:</strong> Information about the mobile device you use, including the device type, operating system version, and unique device identifiers.</li>
+            </ul>
 
-            <h2>4. Security of Your Information</h2>
-            <p>
-              We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.
-            </p>
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the information we collect to operate, maintain, and improve the Service, including to:</p>
+            <ul>
+              <li><strong>Provide Core Functionality:</strong> Enable achievement tracking, calculate your internal "Achiever Ranks," display leaderboards, and synchronize your earned XP with your Google Play Games account.</li>
+              <li><strong>Personalize Experience:</strong> Tailor the missions and challenges offered within the app based on your gaming history and progress.</li>
+              <li><strong>Communicate with You:</strong> Respond to your inquiries, send you technical notices, and provide app updates.</li>
+              <li><strong>Monitor and Analyze:</strong> Track usage and activities to improve the performance, stability, and features of the Service.</li>
+              <li><strong>Security:</strong> Detect and prevent fraudulent activity and unauthorized access.</li>
+            </ul>
 
-            <h2>5. Contact Us</h2>
+            <h2>3. Sharing and Disclosure of Information</h2>
+            <p>We will not rent or sell your personal information. We only share or disclose information as follows:</p>
+            <ul>
+              <li><strong>Google Play Games Services:</strong> We share your achievements and XP data with the Google Play Games APIs as necessary to update your official profile.</li>
+              <li><strong>Service Providers:</strong> We may use third-party companies (e.g., cloud hosting services, analytics providers) to perform services on our behalf. These third parties are bound by confidentiality obligations and are prohibited from using your personal information for any purpose other than providing the contracted services.</li>
+              <li><strong>Legal Compliance:</strong> We may disclose your information if required to do so by law or in the good faith belief that such action is necessary to comply with legal obligations, protect our rights, or ensure the safety of our users.</li>
+            </ul>
+
+            <h2>4. Data Security</h2>
+            <p>We implement reasonable physical, technical, and administrative security measures designed to protect your information from loss, misuse, and unauthorized access, disclosure, alteration, and destruction. However, no internet or electronic transmission is ever fully secure, so we cannot guarantee its absolute security.</p>
+
+            <h2>5. Data Retention</h2>
+            <p>We retain the data collected from your Google Play Games account only for as long as your account with Try Achiever is active and necessary to fulfill the purposes outlined in this policy. If you delete your Try Achiever account, we will delete or anonymize your achievement data linked specifically to our Service.</p>
+
+            <h2>6. Children's Privacy</h2>
+            <p>The Service is not directed to, and we do not knowingly collect personal information from, children under 13. If you become aware that your child has provided us with personal information without your consent, please contact us, and we will take steps to remove the information and terminate the child's account.</p>
+
+            <h2>7. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the Service or on our website. You are advised to review this policy periodically for any changes.</p>
+
+            <h2>8. Your Rights (EEA/California Users)</h2>
+            <p>Depending on your jurisdiction, you may have specific rights regarding your personal data, including the right to access, correct, or delete your information. To exercise these rights, please contact us using the information below.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
             <p>
-              If you have questions or comments about this Privacy Policy, please contact us at: privacy@tryachiever.example.com
+              [Your Company Name/Your Name]<br />
+              [Your Support Email Address]<br />
+              [Optional: Your Website or Mailing Address]
             </p>
+            <p>Remember to replace all bracketed placeholders with your actual information and seek legal counsel.</p>
           </div>
         </div>
       </main>
