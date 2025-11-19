@@ -7,6 +7,18 @@ import { ArrowRight, Download, Smartphone, Shield } from 'lucide-react';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
+const PlayStoreIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    {...props}
+  >
+    <path d="M21.5,12.2L6.7,2.5C6.4,2.3,6,2.4,5.8,2.7C5.7,2.8,5.7,3,5.7,3.2v17.5c0,0.4,0.3,0.8,0.8,0.8c0.2,0,0.3-0.1,0.5-0.2l14.8-9.7C21.9,12.5,22,12.1,21.8,11.8C21.8,12,21.7,12,21.5,12.2z M8.8,14.8V9.2l4.1,2.8L8.8,14.8z M16.7,10.6l-2.4-1.6L12,10.1l2.3,1.1L16.7,10.6z M17.4,11.8l-2,1.3l-2.6-1.3l2.6-1.3L17.4,11.8z" />
+  </svg>
+);
+
+
 export default function Home() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-background');
 
@@ -53,7 +65,10 @@ export default function Home() {
             </p>
             <div className="mt-8 flex justify-center gap-4">
               <Button asChild size="lg" className="font-bold text-lg py-6 px-8">
-                <Link href="#">Download on Google Play <Download className="w-5 h-5 ml-2" /></Link>
+                <Link href="#">
+                  <PlayStoreIcon className="w-6 h-6 mr-2" />
+                  Download on Google Play
+                </Link>
               </Button>
             </div>
           </div>
