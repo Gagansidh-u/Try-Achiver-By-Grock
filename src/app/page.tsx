@@ -52,7 +52,7 @@ export default function Home() {
               Discover the ultimate tool for [Your App's Main Purpose]. Available now on the Google Play Store.
             </p>
             <div className="mt-8 flex justify-center gap-4">
-              <Button asChild size="lg" className="font-bold btn-arcade text-lg py-6 px-8">
+              <Button asChild size="lg" className="font-bold text-lg py-6 px-8">
                 <Link href="#">Download on Google Play <Download className="w-5 h-5 ml-2" /></Link>
               </Button>
             </div>
