@@ -82,7 +82,6 @@ export default function PrivacyPolicyPage() {
               Grock Technologies<br />
               helpdesk.grock@outlook.com<br />
             </p>
-            <p>Remember to replace all bracketed placeholders with your actual information and seek legal counsel.</p>
           </div>
         </div>
       </main>
